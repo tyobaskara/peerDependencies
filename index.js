@@ -1,4 +1,5 @@
 var _ = require('lodash');
+var lodashGet = require('secondLibrary');
 
 const myData = {
   name: 'Prasetya'

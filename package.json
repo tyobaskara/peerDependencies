@@ -19,6 +19,7 @@
   "homepage": "https://github.com/tyobaskara/peerDependencies#readme",
   "peerDependencies": {
     "lodash": "^4.17.21",
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.0.2",
+    "secondLibrary": "git@github.com:tyobaskara/peerDependencies.git#a5c77e9faddfd18feb8ba658ed55c63de57ba133"
   }
 }
