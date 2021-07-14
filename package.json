@@ -19,6 +19,9 @@
   "homepage": "https://github.com/tyobaskara/peerDependencies#readme",
   "peerDependencies": {
     "lodash": "^4.17.21",
-    "jenchart": "git@github.com:tyobaskara/JenChart.git#9405533f73b31047e90a8b44743f4759dc8a2f2f"
+    "bootstrap": "^5.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2"
   }
 }
