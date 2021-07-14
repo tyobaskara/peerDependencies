@@ -5,9 +5,12 @@ const myData = {
   name: 'Prasetya'
 };
 
-const lodashGet = () => {
+const callFunction = () => {
   const myName = _.get(myData, 'name', 'Anonymous');
-  console.log('Peer Dependencies test', myName);
+  console.log('first func', myName);
+  console.log('second func', lodashGet());
 };
 
-module.exports = lodashGet
+module.exports = {
+  callFunction
+}
