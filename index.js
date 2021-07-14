@@ -1,5 +1,12 @@
+import get from 'lodash/get';
+
+const myData = {
+  name: 'Prasetya'
+}
+
 const myFunction = () => {
-  console.log('Peer Dependencies test');
+  const myName = get(myData, 'name', 'Anonymous');
+  console.log('Peer Dependencies test', myName);
 }
 
 export default {
