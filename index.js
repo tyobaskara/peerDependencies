@@ -1,14 +1,12 @@
-import get from 'lodash/get';
+var _ = require('lodash');
 
 const myData = {
   name: 'Prasetya'
-}
+};
 
-const myFunction = () => {
-  const myName = get(myData, 'name', 'Anonymous');
+const lodashGet = () => {
+  const myName = _.get(myData, 'name', 'Anonymous');
   console.log('Peer Dependencies test', myName);
-}
+};
 
-export default {
-  myFunction
-}
+module.exports = lodashGet
