@@ -19,6 +19,6 @@
   "homepage": "https://github.com/tyobaskara/peerDependencies#readme",
   "peerDependencies": {
     "lodash": "^4.17.21",
-    "bootstrap": "5.0.1"
+    "bootstrap": "5.0.x"
   }
 }
